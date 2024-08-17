@@ -19,10 +19,7 @@ function App() {
     const returnData = await axios.get(url);
     const returnFiveDays = await axios.get(urlFiveDays);
     setWeather(returnData.data)
-    setweatherFiveDays(returnFiveDays.data)
-    
-
-
+    setweatherFiveDays(returnFiveDays.data);
   }
 
   return (
