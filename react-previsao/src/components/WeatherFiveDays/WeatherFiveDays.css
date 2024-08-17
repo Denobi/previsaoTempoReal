@@ -1,0 +1,34 @@
+.weather-container{
+    background-color: rgba(240, 255, 255, 0.336);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px 0;
+    h3{
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+
+    }
+}
+
+.weather-list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+   img{
+    width: 3.2rem;
+   }
+}
+.weather-item{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 15px;
+    padding: 12px;
+
+}
+.daily, .daily-descript{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
